@@ -1,7 +1,7 @@
 exports.handler = async (event) => {
-  const author = event.sender.login
-
   console.log(event)
+
+  const author = event.sender.login
 
   return {
     statusCode: 200,
